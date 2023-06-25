@@ -1,0 +1,28 @@
+.container_project{
+    display: flex;
+    >div{
+        margin: auto;
+    }
+    >.hr{
+        border: 1px solid rebeccapurple;
+        width: 50%;
+    }
+    >.heading>h1{
+        color: white;
+        >span{
+            color: rebeccapurple;
+        }
+    }
+    >.viewproject{
+        >a{
+            color: white;
+        }
+    }
+}
+.project_grid{
+    margin-top: 40px;
+    justify-content: center;
+    display: grid;
+    gap:2%;
+    grid-template-columns: 30% 30% 35%;
+}

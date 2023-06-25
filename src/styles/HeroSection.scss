@@ -1,0 +1,47 @@
+@import'Theme';
+.grid{
+    display: grid;
+    place-items: center;
+    grid-template-columns: 50% 50%;
+    margin-top: 10%;
+    padding: 20px;
+    >.col1 
+    {
+        >h1{
+            color: white;
+            margin-bottom:40px;
+            >span{
+                color: rebeccapurple;
+            }
+        }
+        >p{
+            margin-top: 10px;
+            color: $background2;
+            margin-bottom: 30px;
+        }
+        >a{
+            margin-top: 30px;
+            color:white;
+            text-decoration: none;
+            width: 150px;
+            padding:10px;
+            height:30px;
+            border: 1px solid rebeccapurple;
+        }
+    }
+    >.col2{
+        >.current_project{
+            
+            border: 1px solid gray;
+            padding: 0 6%;
+            height: 45px;
+            >p{
+                margin: 10px;
+                color: $background2;
+                >a{
+                    color:$light;
+                }
+            }
+        }
+    }
+}

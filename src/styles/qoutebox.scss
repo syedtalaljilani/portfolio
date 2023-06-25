@@ -1,0 +1,47 @@
+@import 'Theme';
+.parent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+.firstdiv{
+    text-align: center;
+    margin-bottom: auto;
+    >.img1{
+        position:relative;
+        bottom: 20px;
+        width: 8%;
+    }
+    >.img2{
+        position:relative;
+        top: 30px;
+        width: 8%;
+    }
+    display:flex;
+    margin: auto;
+    justify-content: center;
+    width:50%;
+    border: 1px solid gray;
+    padding: 12px;
+    >p{
+        color: white;
+    }
+}
+.seconddiv{
+    >p{
+        color: white;
+        text-align: center;
+    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    align-self:center;
+    margin-bottom: 40px;
+    border-top:none;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+

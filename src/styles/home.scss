@@ -1,0 +1,16 @@
+@import 'Theme';
+.container{
+    background-color: $background1;
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+      >.col1{
+        background-color:$background1;
+      }
+      >.col2{
+        background-color: $background1;
+
+      }
+      >.col3{
+        background-color: $background1;
+      }
+}
