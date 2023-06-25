@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
+.line {
+  margin: 20px 0 0 55px;
+  border-left: 1px solid white;
+  height: 100px;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px 0 0 35px;
+}
+.social > div {
+  padding: 7px;
+  width: 47px;
+  height: 45px;
+  border-radius: 50%;
+  border: 1px solid white;
+  margin-bottom: 20px;
+}/*# sourceMappingURL=SocialVertical.css.map */
