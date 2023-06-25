@@ -1,5 +1,5 @@
 import React from 'react'
-import 'src/styles/home.scss';
+import '../styles/home.scss';
 import Header from '../Components/Header';
 import HeroSection from '../Components/HeroSection';
 import SocialVertical from '../Components/SocialVertical';

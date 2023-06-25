@@ -1,5 +1,5 @@
 import React from 'react'
-import 'src/styles/QouteBox.scss'
+import '../styles/QouteBox.scss'
 const QouteBox = () => {
   return (
 

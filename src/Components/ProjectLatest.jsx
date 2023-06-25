@@ -1,5 +1,5 @@
 import React from 'react'
-import 'src/styles/ProjectLatest.scss'
+import '../styles/ProjectLatest.scss'
 import ProjectCard from './ProjectCard'
 const ProjectLatest = () => {
   return (
