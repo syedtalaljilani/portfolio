@@ -8,7 +8,7 @@ const QouteBox = () => {
       <p>With great power comes great electricity bill</p>
       <img className='img2' src="src/assets/comma.png" alt="" />
     </div><div class="seconddiv">
-        <p>- Dr. Who</p>
+        <p> {'>-'} Dr. Who</p>
       </div></div>
 
   )
