@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/HeroSection.scss'
+import 'src/styles/HeroSection.scss'
 const HeroSection = () => {
   return (
     <div className='grid'>

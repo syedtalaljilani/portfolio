@@ -1,6 +1,6 @@
 import React from 'react'
 import { FiLinkedin,FiGithub } from "react-icons/fi";
-import '../styles/SocialVertical.scss';
+import 'src/styles/SocialVertical.scss';
 const SocialVertical = () => {
   return (
     <div>
