@@ -36,12 +36,12 @@
     font-size: 12px;
 }
 .project_grid{
-    margin-top: 40px;
+    height:180vh;
     justify-content: center;
     display: grid;
-    gap:2%;
-    grid-template-columns:100%;
-}
+    gap:10px;
+    grid-template-columns:48% 48%;
+    }
 }
 @media only screen and (max-width: 767px){
     // mobile
@@ -52,11 +52,10 @@
         font-size: 12px;
     }
     .project_grid{
-    height:180vh;
-    margin-top: 40px;
+    margin-top:20px;
     justify-content: center;
     display: grid;
-    gap:2%;
-    grid-template-columns:70%;
+    gap:30px;
+    grid-template-columns:60%;
     }
 }
