@@ -4,7 +4,7 @@ nav{
     margin-top: 12px;
  display: flex;
  justify-content: space-around;
- padding: 1cqh;
+ padding:1;
  top:0;
  position: sticky;
  z-index: 10;
@@ -25,5 +25,58 @@ nav{
         color: black;
       }
     }
+  }
+}
+/* Default styles */
+
+/* Your default CSS styles here */
+
+/* Media query for small screens (e.g., smartphones) */
+@media only screen and (max-width: 767px) {
+  /* CSS styles for small screens */
+
+  /* Example of hiding an element on small screens */
+  .hide-on-small-screen {
+    display: none;
+  }
+  nav{
+    >h1{
+      text-align: center;
+    }
+     display:grid;
+     grid-column: 1;
+     >main{
+      width: 100%;
+      >a{
+        font-size:small;
+      }
+      
+      
+     }
+  }
+}
+
+/* Media query for medium screens (e.g., tablets) */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  
+  nav{
+    >h1{
+      text-align: center;
+    }
+     display:grid;
+     grid-column: 1;
+     >main{
+      width: 100%;
+      >a{
+        font-size:small;
+      }
+    }
+  }
+}
+
+/* Media query for large screens (e.g., desktops) */
+@media only screen and (min-width: 1024px) {
+  .hide_on_large{
+    display: none;
   }
 }

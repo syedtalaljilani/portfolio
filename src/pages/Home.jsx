@@ -1,10 +1,10 @@
 import React from 'react'
 import '../styles/home.scss';
-import Header from '../Components/Header';
 import HeroSection from '../Components/HeroSection';
 import SocialVertical from '../Components/SocialVertical';
 import QouteBox from '../Components/QouteBox';
 import ProjectLatest from '../Components/ProjectLatest';
+import Header from '../Components/Header';
 const Home = () => {
   return (
     <div className='container'>

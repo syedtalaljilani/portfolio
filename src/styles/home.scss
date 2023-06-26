@@ -14,3 +14,26 @@
         background-color: $background1;
       }
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+  //tablet
+  .conatiner{
+      display:grid;
+      grid-column: 1;
+      grid-template-columns: 100%;
+      >.col1,.col3{
+          display:none;
+      }
+  }
+}
+@media only screen and (max-width: 767px){
+  //mobile
+  .container{
+      display:grid;
+      grid-column: 1;
+      grid-template-columns: 100%;
+      >.col1,.col3{
+        display:none;
+    }
+  }
+}

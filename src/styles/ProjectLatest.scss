@@ -21,8 +21,42 @@
 }
 .project_grid{
     margin-top: 40px;
+    height: 100%;
     justify-content: center;
     display: grid;
     gap:2%;
-    grid-template-columns: 30% 30% 35%;
+    grid-template-columns: 30% 30% 30%;
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+// tablet
+.heading>h1{
+    font-size: 20px;
+}
+.viewproject>a{
+    font-size: 12px;
+}
+.project_grid{
+    margin-top: 40px;
+    justify-content: center;
+    display: grid;
+    gap:2%;
+    grid-template-columns:100%;
+}
+}
+@media only screen and (max-width: 767px){
+    // mobile
+    .heading>h1{
+        font-size: 20px;
+    }
+    .viewproject>a{
+        font-size: 12px;
+    }
+    .project_grid{
+    height:180vh;
+    margin-top: 40px;
+    justify-content: center;
+    display: grid;
+    gap:2%;
+    grid-template-columns:70%;
+    }
 }

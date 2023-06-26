@@ -4,7 +4,7 @@ const ProjectCard = ({technology,img,livelink,cachedlink,title,desc}) => {
   return (
     <div>
         <div className="card">
-            <img src={img} alt="" />
+            <img src={img} alt=""/>
             <p>{technology}</p>
             <h1>{title}</h1> 
             <h3>{desc}</h3>
