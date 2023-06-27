@@ -1,11 +1,12 @@
 import React from "react";
+import {GoHubot} from 'react-icons/go'
 import { Link } from "react-router-dom";
 import "../styles/Header.scss";
 
-const Header = ({toggleModal}) => {
+const Header = () => {
   return (
     <nav>
-      <h1>Syed.J</h1>
+      <h1><GoHubot/>  Syed.J</h1>
       <main>
         <Link to="/">
           <span>#</span>Home

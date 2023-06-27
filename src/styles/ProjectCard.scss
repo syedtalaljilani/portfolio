@@ -1,4 +1,5 @@
 .card{
+    margin:0;
     width:100%;
     border: 1px solid gray;
     >img{
@@ -21,8 +22,8 @@
     }
     .btngroup{
         margin-top: 30px;
-        margin-bottom: 30px;
-        gap: 20px;
+        margin-bottom: 10px;
+        gap: 10px;
         display: grid;
         grid-template-columns: 100px 100px;
         place-content: center;

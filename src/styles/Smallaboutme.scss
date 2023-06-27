@@ -1,0 +1,21 @@
+.container_smallaboutme{
+    margin-top: 20px;
+    display: flex;
+    >div{
+        margin: auto;
+    }
+    >.hr{
+        border: 1px solid rebeccapurple;
+        width: 50%;
+    }
+    >.heading>h1{
+        color: white;
+        >span{
+            color: rebeccapurple;
+        }
+    }
+}
+.grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}

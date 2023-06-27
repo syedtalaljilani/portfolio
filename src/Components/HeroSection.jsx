@@ -1,11 +1,16 @@
 import React from 'react'
 import '../styles/HeroSection.scss'
+import Typewriter from 'typewriter-effect'
 const HeroSection = () => {
   return (
     <div className='grid'>
       <div className="col1">
-        <h1>Syed Talal Jilani is a <span>SaaS Developer (WEB + APP)</span> and <span>Security Consultant</span></h1>
-        <p>He crafts responsive websites and apps and exploit!! where technologies meet creativity</p>
+        <h1>Syed Talal Jilani is a <span><Typewriter onInit={(typewriter)=>{typewriter.
+        typeString("SaaS Developer").pauseFor(2000).deleteAll().typeString('Penetration Tester').pauseFor(2000).deleteAll().start()}} options={{
+          loop:true,
+        }}/></span>
+        </h1>
+        <p>He crafts responsive website,apps and exploit!! where technologies meet creativity</p>
         <a href="">Contact me !!</a>
       </div>
       <div className="col2">
