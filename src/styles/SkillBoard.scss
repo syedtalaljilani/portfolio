@@ -38,7 +38,7 @@
     .skillboard {
         > .col1 {
             > img {
-                width: 200px;
+                width: 180px;
             }
         }
         > .col2 {
@@ -46,7 +46,7 @@
                 display:grid;
                 grid-template-columns: 1fr 1fr 1fr;
                 row-gap: 0px;
-                column-gap: 5px;
+                column-gap: 3px;
                 > .icon {
                     > .icons {
                         width: 50px;

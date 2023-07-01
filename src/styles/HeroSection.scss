@@ -31,9 +31,9 @@
     }
     >.col2{
         >.current_project{
-            
+            width: 100%;
             border: 1px solid gray;
-            padding: 0 6%;
+            padding: 0 8%;
             height: 45px;
             >p{
                 margin: 10px;
@@ -47,11 +47,6 @@
 }
 @media only screen and (min-width: 768px) and (max-width: 1023px){
     //tablet
-    .grid_hero{
-        display:grid;
-        grid-column: 1;
-        grid-template-columns: 100%;
-    }
     
 }
 @media only screen and (max-width: 767px){
@@ -60,5 +55,24 @@
         display:grid;
         grid-column: 1;
         grid-template-columns: 100%;
+        >.col2{
+            >.img{
+                width:300px;
+            }
+            >.current_project{
+                width:90vw;
+                border: 1px solid gray;
+                height: 50px;
+                >p{ 
+                    font-size:15px;
+                    color: $background2;
+                    >a{
+                        color:$light;
+                    }
+                }
+            }
+        }
+        
     }
+        
 }

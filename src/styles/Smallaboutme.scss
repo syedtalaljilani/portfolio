@@ -19,6 +19,7 @@
     display: grid;
     grid-template-columns: 50% 50%;
     gap: 20px;
+    padding: 10px;
     place-items: center;
     > .col1 > p {
         margin-top: 50px;
