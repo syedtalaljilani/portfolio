@@ -3,7 +3,7 @@ import '../styles/HeroSection.scss'
 import Typewriter from 'typewriter-effect'
 const HeroSection = () => {
   return (
-    <div className='grid'>
+    <div className='grid_hero'>
       <div className="col1">
         <h1>Syed Talal Jilani is a <span><Typewriter onInit={(typewriter)=>{typewriter.
         typeString("SaaS Developer").pauseFor(2000).deleteAll().typeString('Penetration Tester').pauseFor(2000).deleteAll().start()}} options={{

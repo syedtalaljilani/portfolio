@@ -15,16 +15,16 @@ const Home = () => {
       </div>
       <div className="col2">
         <Header/>
-        <div id="works">
+        <div id="home">
           <HeroSection/>
         </div>
         <div className="qoute">
           <QouteBox/>
         </div>
-        <div className='projects'>
+        <div id='works'>
           <ProjectLatest/>
         </div>
-        <div id="skill">
+        <div id="techstack">
           <SkillBoard/>
         </div>
         <div id="aboutme">

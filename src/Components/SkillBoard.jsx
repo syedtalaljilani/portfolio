@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/SkillBoard.scss";
-import { SiExpress, SiKalilinux } from "react-icons/si";
+import { SiCss3, SiExpress, SiKalilinux,SiMysql,SiTailwindcss } from "react-icons/si";
 import {
   BiLogoFirebase,
   BiLogoFlutter,
@@ -29,39 +29,51 @@ const SkillBoard = () => {
         <div className="col2">
           <div className="skillgrid">
             <div className="icon">
-              <BiLogoFlutter size={60} color="white" />
+              <BiLogoFlutter size={70} color="white" />
               <p>Flutter</p>
             </div>
             <div className="icon">
-              <BiLogoReact size={60} color="white" />
+              <BiLogoReact size={70} color="white" />
               <p>React</p>
             </div>
             <div className="icon">
-              <BiLogoMongodb size={60} color="white" />
+              <BiLogoMongodb size={70} color="white" />
               <p>Mongodb</p>
             </div>
             <div className="icon">
-              <BiLogoNodejs size={60} color="white" />
+              <BiLogoNodejs size={70} color="white" />
               <p>NodeJs</p>
             </div>
             <div className="icon">
-              <BiLogoJavascript size={60} color="white" />
+              <BiLogoJavascript size={70} color="white" />
               <p>Javascript</p>
             </div>
             <div className="icon">
-              <BiLogoPhp size={60} color="white" />
+              <BiLogoPhp size={70} color="white" />
             </div>
             <div className="icon">
-              <SiKalilinux size={60} color="white" />
+              <SiKalilinux size={70} color="white" />
               <p>Kali Linux</p>
             </div>
             <div className="icon">
-              <BiLogoFirebase size={60} color="white" />
+              <BiLogoFirebase size={70} color="white" />
               <p>Firebase</p>
             </div>
             <div className="icon">
-              <SiExpress size={60} color="white" />
+              <SiExpress size={70} color="white" />
               <p>Express Js</p>
+            </div>
+            <div className="icon">
+              <SiCss3 size={70} color="white" />
+                <p>CSS</p>
+            </div>
+            <div className="icon">
+              <SiTailwindcss size={80} color="white" />
+                <p>TailwindCSS</p>
+            </div>
+            <div className="icon">
+              <SiMysql size={80} color="white" />
+                <p>MySql</p>
             </div>
           </div>
         </div>

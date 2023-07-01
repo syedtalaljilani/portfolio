@@ -15,7 +15,19 @@
         }
     }
 }
-.grid{
+.grid_about{
     display:grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 50% 50%;
+    gap:20px;
+    place-items: center;
+    >.col1>p{
+        margin-top: 50px;
+        color: white;
+        margin-bottom:20px;
+    }
+    a{
+        color:rebeccapurple;
+        border: 1px solid white;
+        padding:10px;
+    }
 }
