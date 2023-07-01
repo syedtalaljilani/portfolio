@@ -1,49 +1,62 @@
-.container_skill{
+.container_skill {
     margin-top: 20px;
     display: flex;
-    >div{
+    > div {
         margin: auto;
     }
-    >.hr{
+    > .hr {
         border: 1px solid rebeccapurple;
         width: 50%;
     }
-    >.heading>h1{
+    > .heading > h1 {
         color: white;
-        >span{
+        > span {
             color: rebeccapurple;
         }
     }
 }
-.skillboard{
+.skillboard {
     margin-top: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     place-items: center;
-    >.col2>.skillgrid{
+    > .col2 > .skillgrid {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         place-items: center;
-        gap:50px;
-        >.icon{
-           >p{
-            color:white;
-            text-align: center;
-           }
+        gap: 50px;
+        > .icon {
+            > p {
+                color: white;
+                text-align: center;
+            }
         }
     }
 }
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 767px) {
     //mobile
-    .skillboard{
-        >.col1{
-            display:none;
+    .skillboard {
+        > .col1 {
+            > img {
+                width: 200px;
+            }
         }
-        >.col2{
-            display:grid;
-            grid-template-columns: 100px;
+        > .col2 {
+            > .skillgrid {
+                display:grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                row-gap: 0px;
+                column-gap: 5px;
+                > .icon {
+                    > .icons {
+                        width: 50px;
+                        
+                    }
+                    >p{
+                        font-size: 10px;
+                    }
+                }
+            }
         }
     }
 }
-
-
