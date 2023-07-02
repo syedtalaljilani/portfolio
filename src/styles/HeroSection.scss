@@ -60,11 +60,12 @@
                 width:300px;
             }
             >.current_project{
-                width:90vw;
+                width:60vw;
                 border: 1px solid gray;
-                height: 50px;
+                height: 45px;
                 >p{ 
-                    font-size:15px;
+                    font-size:12px;
+                    margin: 10px;
                     color: $background2;
                     >a{
                         color:$light;
