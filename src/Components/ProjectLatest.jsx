@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import '../styles/ProjectLatest.scss'
 import ProjectCard from './ProjectCard'
 const ProjectLatest = () => {
@@ -10,7 +11,9 @@ const ProjectLatest = () => {
         </div>
         <div className='hr'></div>
         <div className='viewproject'>
-        <a href="#" class="view-all-projects">View all{'~~>'}</a>
+        <Link to="/works" className="view-all-projects">
+  View all{'~~>'}
+</Link>
         </div>
      </div>
      <div className="project_grid">
