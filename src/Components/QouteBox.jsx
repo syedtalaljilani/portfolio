@@ -1,12 +1,15 @@
 import React from 'react'
+import {BiSolidQuoteAltLeft, BiSolidQuoteAltRight} from 'react-icons/bi';
 import '../styles/QouteBox.scss'
 const QouteBox = () => {
   return (
 
-  <div className='parent'><div class="firstdiv">
-      <img className='img1'src="/assets/comma.png" />
+  <div className='parent'>
+    
+    <div class="firstdiv">
+     <BiSolidQuoteAltLeft color='white'></BiSolidQuoteAltLeft>
       <p>With great power comes great electricity bill</p>
-      <img className='img2' src="/assets/comma.png" alt="" />
+      <BiSolidQuoteAltRight color='white'></BiSolidQuoteAltRight>
     </div><div class="seconddiv">
         <p> {'>-'} Dr. Who</p>
       </div></div>

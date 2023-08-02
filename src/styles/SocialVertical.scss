@@ -1,20 +1,15 @@
 @import 'Theme';
 .line{
-    margin:20px 0 0 55px;
+    margin:20px 0 0 60px;
     border-left: 1px solid white;
-    height: 100px;
+    height: 120px;
 }
 .social{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin:10px 0 0 35px;
-   >div{
-       padding: 7px;
-       width: 47px;
-       height: 45px;
-       border-radius: 50%;
-       border: 1px solid white;
-       margin-bottom: 20px;
-   }   
+    margin:12px 0 0 50px;
+    >div{
+        margin-bottom: 10px;
+    }
 }

@@ -1,15 +1,9 @@
 import React from 'react'
 import '../styles/SmallAboutme.scss'
-const SmallAboutme = () => {
+const LargeAboutme = () => {
   return (
     <div>
-        <div className='container_smallaboutme'>
-            <div className="heading">
-                <h1><span>#</span>about-me</h1>
-            </div>
-            <div className="hr"></div>
-            <div></div>
-        </div>
+        
         <div className="grid_about">
             <div className="col1">
                 <p>Hello, I'm Syed Talal Jilani!</p>
@@ -29,4 +23,4 @@ For more than a year, I have been passionately channeling my creativity and know
   )
 }
 
-export default SmallAboutme;
+export default LargeAboutme;

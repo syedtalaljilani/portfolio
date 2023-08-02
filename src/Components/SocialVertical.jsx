@@ -8,10 +8,10 @@ const SocialVertical = () => {
         </div>
         <div className="social">
           <div className="linkedin">
-              <FiLinkedin color='white' size={30}/>
+              <FiLinkedin color='white' size={20}/>
           </div>
           <div className="linkedin">
-              <FiGithub color='white' size={30}/>
+              <FiGithub color='white' size={20}/>
           </div>
         </div>
     </div>

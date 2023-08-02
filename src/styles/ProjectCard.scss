@@ -1,9 +1,10 @@
+@import 'theme.scss';
 .card{
-    margin:0;
-    width:100%;
+    background-color: $background1;
+    width:300px;
     border: 1px solid gray;
     >img{
-        width: 100%;
+        width:300px;
     }
     >p{
         color: gray;
@@ -31,7 +32,7 @@
             display: grid;
             place-content: center;
             border: 1px solid gray;
-            width: 100%;
+            width: 100px;
             height:40px;
             >a{
                 color: white;
@@ -45,6 +46,9 @@
     }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px){
+    .card{
+        margin-left: 50px;
+    }
     .btngroup{
         margin-top: 30px;
         margin-bottom: 30px;
@@ -52,11 +56,24 @@
         place-content: center;
     }
 }
-@media only screen and (max-width: 767px){
+@media only screen and (min-width: 300px){
+    .card{
+        place-items: center;
+        width:250px;
+        >img{
+            width:250px;
+        }
+    }
     .btngroup{
+        width:200px;
         margin-top: 30px;
+        margin-left: 25px;
         margin-bottom: 30px;
         display: grid;
         place-content: center;
+        >.btn1,.btn2{
+            width:px;
+            height: 20px;
+        }
     }
 }

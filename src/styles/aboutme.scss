@@ -1,0 +1,25 @@
+@import 'theme.scss';
+.about_page{
+    background-color:$background1;
+ >.about-content>.page_title{
+    display: flex;
+    justify-content:space-around;
+    flex-direction: column;
+    margin: 50px 90px;
+    >h1{
+        color: white;
+        >span{
+            color:rebeccapurple;
+        }
+    }
+    >p{
+        margin-bottom: 20px;
+        color: white;
+    }
+}
+}
+@media only screen and (max-width: 767px){
+    .about_page>.about-content>.page_title{
+        margin: 10px 10px;
+    }
+}

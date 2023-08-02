@@ -7,16 +7,6 @@
 .firstdiv{
     text-align: center;
     margin-bottom: auto;
-    >.img1{
-        position:relative;
-        bottom: 20px;
-        width:30px;
-    }
-    >.img2{
-        position:relative;
-        top: 30px;
-        width: 30px;
-    }
     display:flex;
     margin: auto;
     justify-content: center;
@@ -52,7 +42,7 @@
         grid-template-columns: 100%;
         place-items: center;
         >.firstdiv{
-            width: 80%;
+            width: 80vw;
             >.img1,.img2{
                 width:30px;
                 height: 30px;

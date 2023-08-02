@@ -16,7 +16,9 @@ const HeroSection = () => {
       <div className="col2">
         <img src="/assets/boy.png" width={400} className='img'/>
         <div className="current_project">
-            <p><span><img src="/assets/boxpurple.png"/></span> Currently working on <a href=''>ProjectX</a></p>
+             <div>
+             </div>
+            <p>Currently working on <a href=''>ProjectX</a></p>
         </div>
       </div>
     </div>
