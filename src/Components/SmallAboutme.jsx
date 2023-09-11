@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import '../styles/SmallAboutme.scss'
 const SmallAboutme = () => {
   return (
@@ -18,8 +19,9 @@ const SmallAboutme = () => {
 <p>
 For more than a year, I have been passionately channeling my creativity and knowledge into crafting impressive websites and applications. Working with diverse clients, I have assisted them in establishing a strong online presence. Continuously striving to stay updated with the latest technologies and frameworks, I am committed to enhancing my skills and delivering exceptional results for every project.
 
-</p>
-                <a href="">Read more {'->'}</a>
+</p> 
+  <Link to='/about'>Read more {'->'}</Link>
+                
             </div>
             <div className="col2">
                 <img src="assets/boy2.png" alt="" />

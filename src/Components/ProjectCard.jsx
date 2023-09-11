@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/ProjectCard.scss';
+import { Link } from 'react-router-dom';
 const ProjectCard = ({technology,img,livelink,cachedlink,title,desc}) => {
   return (
     <div>
@@ -10,10 +11,10 @@ const ProjectCard = ({technology,img,livelink,cachedlink,title,desc}) => {
             <h3>{desc}</h3>
             <div className="btngroup">
             <div className="btn1">
-            <a href={livelink}>Live {'<~>'}</a>  
+              <Link to={livelink}>Live {'<~>'}</Link> 
             </div>
             <div className="btn2">
-            <a href={cachedlink}>Cached {'>='}</a>  
+              <Link to={cachedlink}>Cached {'>='}</Link>
                 </div>
                 </div>  
         </div>

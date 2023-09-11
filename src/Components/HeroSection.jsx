@@ -13,6 +13,7 @@ const HeroSection = () => {
         </h1>
         <p>He crafts responsive website,apps and exploit!! where technologies meet creativity</p>
          <Link to='/contact'>Contact me !!</Link>
+         <Link to='/contact'>Download CV</Link>
       </div>
       <div className="col2">
         <img src="/assets/boy.png" width={400} className='img'/>

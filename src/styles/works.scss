@@ -1,7 +1,9 @@
 @import 'theme.scss';
-.project-all{
+.container{
     background-color:#282C33;
-    >.project-card>.page_title{
+    >.col2{
+    
+        >.page_title{
         display: flex;
         justify-content:space-around;
         flex-direction: column;
@@ -18,8 +20,9 @@
         }
     }
 }
+}
 @media only screen and (max-width: 767px){
-    .project-all>.project-card>.page_title{
+    .container>.col2>.page_title{
         margin: 10px 10px;
     }
 }

@@ -1,82 +1,88 @@
-@import 'Theme';
-nav{
+/* styles/Header.scss */
+@import 'theme.scss';
+nav {
   background-color: $background1;
-    // margin-top: 12px;
- display: flex;
- justify-content: space-around;
- padding:1;
- top:0;
- position: sticky;
- z-index: 10;
-  >h1{
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  top: 0;
+  position: sticky;
+  z-index: 10;
+
+  > h1 {
     align-items: center;
-    color:$light;
+    color: $light;
     margin-bottom: 5px;
   }
-  >main{
-    >a{
-      color:$background2;
-      font-size: 20px;
+
+  > .menu {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    >h1{
+       display: none;
+    }
+    > a {
+      color: $background2;
+      font-size: 24px;
+      /* Increase link font size */
       padding: 8px;
-      >span{
-        color:$primary;
+
+      > span {
+        color: $primary;
       }
-      &a:active{
+
+      &:active {
         color: black;
       }
     }
   }
-}
-/* Default styles */
 
-/* Your default CSS styles here */
-
-/* Media query for small screens (e.g., smartphones) */
-@media only screen and (max-width: 767px) {
-  /* CSS styles for small screens */
-
-  /* Example of hiding an element on small screens */
-  .hide-on-small-screen {
-    display: none;
+  > .menu-icon {
+    display: none; /* Hide the icon by default for larger screens */
+    font-size: 24px; /* Set a font size for the menu icon */
+    cursor: pointer;
   }
-  nav{
-    >h1{
-      text-align: center;
+
+  @media only screen and (max-width: 767px) {
+    flex-direction:column;
+    > h1 {
+      display: none;
     }
-     display:grid;
-     grid-column: 1;
-     >main{
-      width: 100%;
-      >a{
-        font-size:small;
+
+    > .menu {
+      display: none;
+       /* Hide the menu items on small screens initially */
+
+      &.active {
+        display: flex;
+        flex-direction: column;
+        height: 90vh; /* Show the menu items when active */
       }
-      
-      
-     }
-  }
-}
 
-/* Media query for medium screens (e.g., tablets) */
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-  
-  nav{
-    >h1{
-      text-align: center;
-    }
-     display:grid;
-     grid-column: 1;
-     >main{
-      width: 100%;
-      >a{
-        font-size:small;
+      > a {
+        font-size: 60px; /* Increase link font size on small screens */
       }
     }
-  }
-}
 
-/* Media query for large screens (e.g., desktops) */
-@media only screen and (min-width: 1024px) {
-  .hide_on_large{
-    display: none;
+    > .menu-icon {
+      display: flex;
+      color: white;
+      >.mobile_menu{
+       display: flex;
+        align-items: center;
+        margin: auto;
+        >.icon{
+          margin-left: 100px;
+        }
+        >.heading{
+            
+            >h1{
+          font-size: 40px;
+        }
+      }
+
+      } /* Show the menu icon on small screens */
+    }
   }
 }

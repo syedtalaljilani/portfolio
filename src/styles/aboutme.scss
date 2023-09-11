@@ -1,7 +1,7 @@
 @import 'theme.scss';
-.about_page{
+.container{
     background-color:$background1;
- >.about-content>.page_title{
+ >.col2>.page_title{
     display: flex;
     justify-content:space-around;
     flex-direction: column;
@@ -19,7 +19,7 @@
 }
 }
 @media only screen and (max-width: 767px){
-    .about_page>.about-content>.page_title{
+    .container>.col2>.page_title{
         margin: 10px 10px;
     }
 }

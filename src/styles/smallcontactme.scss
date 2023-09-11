@@ -1,0 +1,78 @@
+@import 'theme.scss';
+.SmallContactContainer {
+    margin-top: 20px;
+    display: flex;
+    > div {
+        margin: auto;
+    }
+    > .hr {
+        border: 1px solid rebeccapurple;
+        width: 50%;
+    }
+    > .heading > h1 {
+        color: white;
+        > span {
+            color: rebeccapurple;
+        }
+    }
+}
+.gridcontactme{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    gap: 20px;
+    margin-top: 50px;
+    place-items: center;
+    >div>p{
+        color:gray;
+    }
+    >.MessageMe>.MessageContainer{
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        border: 1px solid gray;
+        >h3{
+            color:white;
+            margin-bottom:30px;
+        }
+        >button{
+            width:100%;
+            height:45px;
+            margin-bottom: 10px;
+            display:grid;
+            place-items: center;
+            grid-template-columns: 40% 40%;
+        }
+        >button[name='whatsapp']{
+            background-color:$background1;
+            color:white;
+            &:hover{
+                background-color: rebeccapurple;
+            }
+
+            border: 1px solid rebeccapurple;
+        }
+        >button[name='email']{
+            background-color:$background1;
+            color:white;
+            &:hover{
+                background-color:gray;
+            }
+
+            border: 1px solid gray;
+        }
+    }
+}
+@media only screen and (max-width: 767px){
+  .gridcontactme{
+     >div{
+        margin: 10px;
+        >p{
+            font-size:12px;
+            
+        }
+    }
+    display:grid;
+    grid-template-columns:70%;
+    place-content: center;
+  }
+}

@@ -24,13 +24,15 @@
     place-items: center;
     > .col1 > p {
         margin-top: 50px;
-        color: white;
+        color:gray;
         margin-bottom: 20px;
     }
     a {
-        color: rebeccapurple;
-        border: 1px solid white;
+        color:white;
+        border: 1px solid rebeccapurple;
         padding: 10px;
+        width: fit-content;
+        height: max-content;
     }
 }
 
@@ -43,11 +45,13 @@
         > p,
         a {
             font-size: 12px;
+
         }
     }
     .grid_about>.col2{
         >img{
-            width: 150px;
+            width: 160px;
+            height:450px;
         }
     }
     .grid_about{

@@ -2,18 +2,30 @@ import React from 'react'
 import Header from '../Components/Header'
 import '../styles/works.scss'
 import ProjectAll from '../Components/ProjectAll';
+import SocialVertical from '../Components/SocialVertical';
+import Footer from '../Components/Footer';
 const Works = () => {
   return (
-     <div className='project-all'>
-      <Header></Header>
-      <div className='project-card'>
-      <div className="page_title">
-         <h1><span>/</span>projects</h1>
-         <p>List of my projects</p>
-        </div>
-       <ProjectAll></ProjectAll>
+    <div className='container'>
+      <div className="col1">
+         <SocialVertical></SocialVertical>
       </div>
-     </div>
+      <div className="col2">
+         <Header></Header>
+         <div className="page_title">
+         <h1><span>/</span>projects</h1>
+         <p>List of All Projects</p>
+         </div>
+         <div className='complete_app'>
+            <ProjectAll></ProjectAll>
+         </div>
+         <div className="footer">
+          <Footer/>
+        </div>
+      </div>
+      <div className="col3">
+      </div>
+    </div>
      
   )
 }

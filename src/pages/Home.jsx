@@ -7,6 +7,8 @@ import ProjectLatest from '../Components/ProjectLatest';
 import Header from '../Components/Header';
 import SkillBoard from '../Components/SkillBoard';
 import SmallAboutme from '../Components/SmallAboutme';
+import SmallContactme from '../Components/SmallContactme';
+import Footer from '../Components/Footer';
 const Home = () => {
   return (
     <div className='container'>
@@ -29,6 +31,12 @@ const Home = () => {
         </div>
         <div id="aboutme">
           <SmallAboutme/>
+        </div>
+        <div id="contactme">
+          <SmallContactme/>
+        </div>
+        <div className="footer">
+          <Footer/>
         </div>
       </div>
       <div className="col3">

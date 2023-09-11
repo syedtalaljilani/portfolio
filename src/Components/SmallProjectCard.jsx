@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/ProjectCard.scss';
-
+import {Link} from 'react-router-dom';
 const SmallProjectCard = ({ technology, githublink, figmalink, title, desc }) => {
   return (
     <div>
@@ -11,11 +11,11 @@ const SmallProjectCard = ({ technology, githublink, figmalink, title, desc }) =>
         <div className="btngroup">
           {githublink ? (
             <div className="btn1">
-              <a href={githublink}>Github{'<~>'}</a>
+              <Link to={githublink}>Github{'<~>'}</Link>
             </div>
           ) : null}
           <div className="btn2">
-            <a href={figmalink}>Figma{'>='}</a>
+          <Link to={figmalink}>Figma{'>='}</Link>
           </div>
         </div>
       </div>

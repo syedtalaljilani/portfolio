@@ -1,0 +1,75 @@
+// JobExperienceWidget.scss
+.experience{
+    margin-top: 20px;
+    display: flex;
+    > div {
+        margin: auto;
+    }
+    > .hr {
+        border: 1px solid rebeccapurple;
+        width: 50%;
+    }
+    > .heading > h1 {
+        color: white;
+        > span {
+            color: rebeccapurple;
+        }
+    }
+}
+.job-experience {
+    display: flex;
+    margin: 20px 0;
+  
+    .timeline {
+      width: 50px;
+      position: relative;
+  
+      .timeline-dot {
+        width: 10px;
+        height: 10px;
+        background-color:rebeccapurple;
+        border-radius: 50%;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+  
+      .timeline-line {
+        width: 2px;
+        height: 100%;
+        background-color:rebeccapurple;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+  
+    .job-details {
+      margin-left: 30px;
+      color: white;
+  
+      .job-title {
+        font-size: 18px;
+        font-weight: bold;
+        color:white;
+      }
+  
+      .company {
+        font-size: 16px;
+        color:white;
+      }
+  
+      .date {
+        font-size: 14px;
+        color: #888;
+      }
+  
+      .description {
+        font-size: 16px;
+        margin-top: 10px;
+      }
+    }
+  }
+  
