@@ -17,7 +17,7 @@ const HeroSection = () => {
              <Link to='https://drive.google.com/file/d/1gIKpk-ELM9Aake7XGT8tG0a0iNaA2SsF/view?usp=sharing' >DownLoad CV</Link>
       </div>
       <div className="col2">
-        <img src="/public/assets/boy.png" width={400} className='img' alt={'Boy Pic'}/>
+        <img src="/src/assets/boy.png" width={400} className='img' alt={'Boy Pic'}/>
         <div className="current_project">
              <div>
              </div>

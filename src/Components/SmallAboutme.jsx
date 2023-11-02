@@ -24,7 +24,7 @@ For more than a year, I have been passionately channeling my creativity and know
                 
             </div>
             <div className="col2">
-                <img src="assets/boy2.png" alt="" />
+                <img src="/src/assets/boy2.png" alt="" />
             </div>
         </div>
     </div>

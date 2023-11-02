@@ -24,7 +24,7 @@ const SkillBoard = () => {
       </div>
       <div className="skillboard">
         <div className="col1">
-          <img src="assets/rectangle.png" alt="" />
+          <img src="src/assets/rectangle.png" alt="" />
         </div>
         <div className="col2">
           <div className="skillgrid">
