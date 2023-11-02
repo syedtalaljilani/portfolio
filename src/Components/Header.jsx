@@ -1,9 +1,9 @@
 // Header.js
 
 import React, { useState } from "react";
-import { IoClose, IoMenu } from "react-icons/io5"; // Import icons for cross and hamburger
+import { IoClose, IoMenu } from "react-icons/io5";
 import { Link } from "react-router-dom";
-import "../styles/Header.scss"; // Import the CSS file
+import "../styles/Header.scss";
 
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -15,15 +15,15 @@ const Header = () => {
   return (
     <nav>
       <h1>
-         <img src='/public/assets/logo.gif' width={90} height={70} alt={}></img>
+         <img src='/public/assets/logo.gif' width={90} height={70} alt={'logo'}></img>
       </h1>
       <div className="menu-icon" onClick={handleMenuToggle}>
-        {showMenu ? <IoClose size={50} /> : <div className="mobile_menu">
+        {showMenu ? (<IoClose size={50} /> ): <div className="mobile_menu">
           <div className="heading">
-          <img src='/public/assets/logo.gif' width={90} height={70} alt={}></img>
+          <img src='/public/assets/logo.gif' width={90} height={70} alt={'logo'} ></img>
           </div>
           <div className='icon'>
-          <IoMenu size={50}/> 
+          <IoMenu size={50}/>
           </div>
           </div>}
       </div>
