@@ -1,6 +1,6 @@
 import React from 'react'
 import {BiSolidQuoteAltLeft, BiSolidQuoteAltRight} from 'react-icons/bi';
-import '../styles/QouteBox.scss'
+import 'src/styles/qoutebox.scss'
 const QouteBox = () => {
   return (
 
