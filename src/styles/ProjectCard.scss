@@ -4,7 +4,9 @@
     width:300px;
     border: 1px solid gray;
     >img{
-        width:300px;
+        width:200px;
+        padding: 10px;
+        border-radius: 30px;
     }
     >p{
         color: gray;
@@ -78,7 +80,7 @@
         display: grid;
         place-content: center;
         >.btn1,.btn2{
-            width:px;
+
             height: 20px;
         }
     }

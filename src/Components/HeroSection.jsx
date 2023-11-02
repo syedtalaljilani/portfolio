@@ -2,6 +2,7 @@ import React from 'react'
 import '../styles/HeroSection.scss'
 import Typewriter from 'typewriter-effect'
 import { Link } from 'react-router-dom'
+
 const HeroSection = () => {
   return (
     <div className='grid_hero'>
@@ -12,11 +13,11 @@ const HeroSection = () => {
         }}/></span>
         </h1>
         <p>He crafts responsive website,apps and exploit!! where technologies meet creativity</p>
-         <Link to='/contact'>Contact me !!</Link>
-         <Link to='/contact'>Download CV</Link>
+             <Link to='/contact'>Contact me !!</Link>
+             <Link to='https://drive.google.com/file/d/1gIKpk-ELM9Aake7XGT8tG0a0iNaA2SsF/view?usp=sharing' >DownLoad CV</Link>
       </div>
       <div className="col2">
-        <img src="/assets/boy.png" width={400} className='img'/>
+        <img src="/public/assets/boy.png" width={400} className='img' alt={'Boy Pic'}/>
         <div className="current_project">
              <div>
              </div>

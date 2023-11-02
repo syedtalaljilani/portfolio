@@ -30,7 +30,6 @@
   //mobile
   .container{
       display:grid;
-      grid-column: 1;
       grid-template-columns: 100%;
       >.col1,.col3{
         display:none;

@@ -1,4 +1,5 @@
 @import'Theme';
+
 .grid_hero{
     display: grid;
     place-items: center;
@@ -7,6 +8,7 @@
     padding: 20px;
     >.col1 
     {
+        margin-bottom: 20px;
         >h1{
             color: white;
             margin-bottom:40px;
@@ -21,6 +23,8 @@
         }
         >a{
             margin-top: 30px;
+            margin-bottom: 30px;
+            margin-left: 30px;
             color:white;
             text-decoration: none;
             width: 150px;
@@ -54,6 +58,7 @@
         }
     }
 }
+
 @media only screen and (min-width: 768px) and (max-width: 1023px){
     //tablet
     

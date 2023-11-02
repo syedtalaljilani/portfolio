@@ -16,12 +16,12 @@ const Header = () => {
   return (
     <nav>
       <h1>
-         <img src='/assets/logo.gif' width={90} height={70}></img>
+         <img src='/public/assets/logo.gif' width={90} height={70}></img>
       </h1>
       <div className="menu-icon" onClick={handleMenuToggle}>
         {showMenu ? <IoClose size={50} /> : <div className="mobile_menu">
           <div className="heading">
-          <img src='/assets/logo.gif' width={90} height={70}></img>
+          <img src='/public/assets/logo.gif' width={90} height={70}></img>
           </div>
           <div className='icon'>
           <IoMenu size={50}/> 

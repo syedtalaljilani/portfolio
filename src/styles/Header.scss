@@ -39,8 +39,8 @@ nav {
   }
 
   > .menu-icon {
-    display: none; /* Hide the icon by default for larger screens */
-    font-size: 24px; /* Set a font size for the menu icon */
+    display: none;
+    font-size: 24px;
     cursor: pointer;
   }
 
@@ -52,16 +52,19 @@ nav {
 
     > .menu {
       display: none;
-       /* Hide the menu items on small screens initially */
+
 
       &.active {
         display: flex;
         flex-direction: column;
-        height: 90vh; /* Show the menu items when active */
+        height: 90vh;
       }
 
       > a {
-        font-size: 60px; /* Increase link font size on small screens */
+        font-size: 40px;
+        margin-left: 80px;
+        margin-top: 10px;
+
       }
     }
 

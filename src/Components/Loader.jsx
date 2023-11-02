@@ -5,8 +5,8 @@ const Loader = () => {
   const [headerContent, setHeaderContent] = useState("");
   const [currentHeaderIndex, setCurrentHeaderIndex] = useState(0);
   const headers = [
-    "Collecting Incredients 🔍",
-    "Mixing Incredients 🥛",
+    "Collecting Ingredients 🔍",
+    "Mixing Ingredients 🥛",
     "Baking Website 🧑‍🍳",
     "Website Is Ready!! Wow 😲"
 
@@ -18,7 +18,7 @@ const Loader = () => {
       const timeout = setTimeout(() => {
         setHeaderContent(headers[currentHeaderIndex]);
         setCurrentHeaderIndex((prevIndex) => prevIndex + 1);
-      }, 1000);
+      }, 500);
 
       return () => clearTimeout(timeout);
     }

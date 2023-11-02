@@ -16,7 +16,7 @@ const App = () => {
     // Simulating an asynchronous operation (e.g., fetching data) that takes some time
     setTimeout(() => {
       setLoading(false);
-    }, 5000); // Simulating a 5-second loading time; replace this with your actual loading logic
+    }, 2800); // Simulating a 5-second loading time; replace this with your actual loading logic
   }, []);
 
   return (
