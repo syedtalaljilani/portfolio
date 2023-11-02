@@ -5,7 +5,7 @@ import SmallProjectCard from './SmallProjectCard';
 const ProjectAll = () => {
   return (
     <>
-     <div class="container_project">
+     <div className="container_project">
         <div className='heading'>
         <h1><span>#</span>complete-apps</h1>
         </div>
@@ -22,7 +22,7 @@ const ProjectAll = () => {
         </div>
 
         <br />
-        <div class="container_project">
+        <div className="container_project">
         <div className='heading'>
         <h1><span>#</span>small-projects</h1>
         </div>

@@ -5,7 +5,7 @@ import ProjectCard from './ProjectCard'
 const ProjectLatest = () => {
   return (
     <>
-     <div class="container_project">
+     <div className="container_project">
         <div className='heading'>
         <h1><span>#</span>projects</h1>
         </div>

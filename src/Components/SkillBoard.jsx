@@ -13,7 +13,7 @@ import {
 const SkillBoard = () => {
   return (
     <>
-      <div class="container_skill">
+      <div className="container_skill">
         <div className="heading">
           <h1>
             <span>#</span>skills
@@ -72,7 +72,7 @@ const SkillBoard = () => {
                 <p>TailwindCSS</p>
             </div>
             <div className="icon">
-              <SiMysql size={80} color="white"className="icons" />
+              <SiMysql size={80} color="white" className="icons" />
                 <p>MySql</p>
             </div>
           </div>
