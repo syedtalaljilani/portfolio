@@ -1,5 +1,6 @@
 /* styles/Header.scss */
 @import 'theme';
+
 nav {
   background-color: $background1;
   display: flex;
@@ -23,7 +24,7 @@ nav {
        display: none;
     }
     > a {
-      color: $background2;
+      color:#888888;
       font-size: 24px;
       /* Increase link font size */
       padding: 8px;
@@ -32,8 +33,10 @@ nav {
         color: $primary;
       }
 
-      &:active {
-        color: black;
+      &:hover{
+        text-decoration:2px $primary underline !important;
+
+
       }
     }
   }

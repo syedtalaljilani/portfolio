@@ -17,9 +17,9 @@ const ProjectLatest = () => {
         </div>
      </div>
      <div className="project_grid">
-     <ProjectCard title={'ProtectX'} desc={'Discord anti-crash bot'} technology={'HTML SCSS Python Flask'} img={'src/assets/ProtectX.png'}/>
-     <ProjectCard title={'ProtectX'} desc={'Discord anti-crash bot'} technology={'HTML SCSS Python Flask'} img={'src/assets/ProtectX.png'}/>
-     <ProjectCard title={'ChertNodes'} desc={'Minecraft servers hosting '} technology={'HTML SCSS Python Flask'} img={'src/assets/ChertNodes.jpg'}/>
+     <ProjectCard title={'ProtectX'} desc={'Discord anti-crash bot'} technology={'HTML SCSS Python Flask'} img={'/assets/ProtectX.png'}/>
+     <ProjectCard title={'ProtectX'} desc={'Discord anti-crash bot'} technology={'HTML SCSS Python Flask'} img={'/assets/ProtectX.png'}/>
+     <ProjectCard title={'ChertNodes'} desc={'Minecraft servers hosting '} technology={'HTML SCSS Python Flask'} img={'/assets/ChertNodes.jpg'}/>
         </div>
     </>
   )

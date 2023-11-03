@@ -14,10 +14,10 @@ const HeroSection = () => {
         </h1>
         <p>He crafts responsive website,apps and exploit!! where technologies meet creativity</p>
              <Link to='/contact'>Contact me !!</Link>
-             <Link to='https://drive.google.com/file/d/1gIKpk-ELM9Aake7XGT8tG0a0iNaA2SsF/view?usp=sharing' >DownLoad CV</Link>
+             <a href='/assets/SyedTalalJilani-Dev-Resume.pdf' download={'SyedTalalJilani-Dev-Resume'} >DownLoad CV</a>
       </div>
       <div className="col2">
-        <img src="/src/assets/boy.png" width={400} className='img' alt={'Boy Pic'}/>
+        <img src="/assets/boy.png" width={400} className='img' alt={'Boy Pic'}/>
         <div className="current_project">
              <div>
              </div>

@@ -1,8 +1,9 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import SmallContactme from './SmallContactme'
 import {SiLinkedin,SiGithub,SiTwitter,SiInstagram,SiFacebook,SiTiktok} from 'react-icons/si'
 import '../styles/LargeContactMe.scss'
-const LargeContactme = () => { 
+const LargeContactme = () => {
   return (
     <>
      <div className='smallcontactcontainer'>
@@ -19,24 +20,26 @@ const LargeContactme = () => {
         <div></div>
       </div>
       <div className="socialicon">
-         <div className='icon'>
-         <SiLinkedin size={30}/> <span>Linkedin</span>
-         </div>
-         <div className='icon'>
+
+             <Link className='icon' to='https://www.linkedin.com/in/syedtalaljilani/' target={'_blank'}>
+                 <SiLinkedin size={30}/> <span>Linkedin</span>
+             </Link>
+         <Link  to='https://github.com/syedtalaljilani' target={'_blank'} className='icon'>
          <SiGithub size={30}/> <span>Github</span>
-         </div>
-         <div className='icon'>
+         </Link>
+         <Link className='icon' to='https://www.instagram.com/syedtalaljilani/' target={"_blank"}>
          <SiInstagram size={30}/> <span>Instagram</span>
-         </div>
-         <div className='icon'>
+         </Link>
+         <Link className='icon' to='https://twitter.com/syedtalalj' target={'_blank'}>
          <SiTwitter size={30}/> <span>Twitter</span>
-         </div>
-         <div className='icon'>
+         </Link>
+         <Link className='icon' to='https://www.facebook.com/syedtalaljilani' target={'_blank'}>
+
          <SiFacebook size={30}/> <span>Facebook</span>
-         </div>
-         <div className='icon'>
+         </Link>
+         <Link className='icon' to='https://www.tiktok.com/@syedtalaljilani' target={'_blank'}>
          <SiTiktok size={30}/> <span>Tiktok</span>
-         </div>
+         </Link>
         </div>
     </>
   )
