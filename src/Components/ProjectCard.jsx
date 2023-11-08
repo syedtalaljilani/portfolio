@@ -11,10 +11,10 @@ const ProjectCard = ({technology,img,livelink,cachedlink,title,desc}) => {
             <h3>{desc}</h3>
             <div className="btngroup">
             <div className="btn1">
-              <Link to={livelink}>Live {'<~>'}</Link> 
+              <Link to={livelink} target={'_blank'}>Live {'<~>'}</Link> 
             </div>
             <div className="btn2">
-              <Link to={cachedlink}>Cached {'>='}</Link>
+              <Link to={cachedlink} target={'_blank'}>Cached {'>='}</Link>
                 </div>
                 </div>  
         </div>

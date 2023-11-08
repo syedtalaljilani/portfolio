@@ -17,7 +17,7 @@ const ProjectLatest = () => {
         </div>
      </div>
      <div className="project_grid">
-     <ProjectCard title={'ProtectX'} desc={'Discord anti-crash bot'} technology={'HTML SCSS Python Flask'} img={'/assets/ProtectX.png'}/>
+     <ProjectCard title={'WaterUI'} desc={'TailwindCSS Reusable Components Library'} technology={'React TailwindCSS CodeMirror'} img={'/assets/project01.png'} livelink={'https://waterui.netlify.app/'} cachedlink={'https://github.com/syedtalaljilani/WaterUI'}/>
      <ProjectCard title={'ProtectX'} desc={'Discord anti-crash bot'} technology={'HTML SCSS Python Flask'} img={'/assets/ProtectX.png'}/>
      <ProjectCard title={'ChertNodes'} desc={'Minecraft servers hosting '} technology={'HTML SCSS Python Flask'} img={'/assets/ChertNodes.jpg'}/>
         </div>
