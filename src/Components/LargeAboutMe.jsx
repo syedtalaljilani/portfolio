@@ -57,14 +57,14 @@ const LargeAboutme = () => {
           jobTitle="Full Stack Developer"
           company="The Spark Foundation"
           startDate="Oct 2022"
-          endDate="Present"
+          endDate="September 2023"
           description="Work on Different Tasks and learn about many technologies (MERN, Flutter, Firebase)."
         />
         <JobExperience
           jobTitle="Freelance Flutter Developer"
           company="Linkedin"
           startDate="Jan 2023"
-          endDate="Present"
+          endDate="September 2023"
           description="Work on freelance client app(social media for club) under construction."
         />
         <JobExperience
