@@ -1,6 +1,5 @@
 import React from 'react';
-import '../styles/JobExperience.scss';
-import '../styles/SmallAboutme.scss'
+import "../styles/JobExperience.scss";
 const JobExperience = ({ jobTitle, company, startDate, endDate, description }) => {
   return (
     <div className="job-experience">

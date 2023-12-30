@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/SmallContactme.scss';
+import '../styles/smallcontactme.scss';
 import {HiOutlineMail} from 'react-icons/hi'
 
 import {SiWhatsapp} from 'react-icons/si'

@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/SmallAboutme.scss";
+import "../styles/Smallaboutme.scss";
 import SkillBoard from "../Components/SkillBoard";
 import JobExperience from "./JobExperience";
 const LargeAboutme = () => {
